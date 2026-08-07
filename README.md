@@ -29,7 +29,7 @@ Construyo herramientas que responden a una pregunta concreta de un engagement, u
 
 | Proyecto | Qué hace | Stack |
 |---|---|---|
-| **[crossmap](https://github.com/mr7security/crossmap)** | Cruce entre ISO/IEC 27001:2022, ENS (RD 311/2022), NIS2 y DORA — bilingüe, con fuentes y vigía de cambios. | Python |
+| **[crossmap](https://github.com/mr7security/crossmap)** | Cruce entre ISO/IEC 27001:2022, ENS (RD 311/2022), NIS2 y DORA — bilingüe, con fuentes y vigía de cambios. · [**demo en vivo**](https://mr7security.github.io/crossmap/) | Python |
 | **[logscan](https://github.com/mr7security/logscan)** | Auditor de cumplimiento de trazabilidad/logs para ENS e ISO 27001, con informe HTML y Declaración de Aplicabilidad. | Python |
 
 ## Simuladores de concienciación · Awareness simulators
