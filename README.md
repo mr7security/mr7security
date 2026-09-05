@@ -32,6 +32,18 @@ Construyo herramientas que responden a una pregunta concreta de un engagement, u
 | **[crossmap](https://github.com/mr7security/crossmap)** | Cruce entre ISO/IEC 27001:2022, ENS (RD 311/2022), NIS2 y DORA — bilingüe, con fuentes y vigía de cambios. · [**demo en vivo**](https://mr7security.github.io/crossmap/) | Python |
 | **[logscan](https://github.com/mr7security/logscan)** | Auditor de cumplimiento de trazabilidad/logs para ENS e ISO 27001, con informe HTML y Declaración de Aplicabilidad. | Python |
 
+## Monitorización de infraestructura · Infrastructure monitoring
+
+Paneles de pared nacidos de necesidades reales de operación y publicados en
+versión configurable: la instalación concreta vive en un fichero de
+configuración, nunca en el código.
+
+| Proyecto | Qué hace | Stack |
+|---|---|---|
+| **[sqlserver-dpa-dashboard](https://github.com/mr7security/sqlserver-dpa-dashboard)** | Estado de instancias SQL Server sobre SolarWinds DPA: sesiones, bloqueos, esperas y Availability Groups. Saca las métricas de la REST interna, porque la API pública de DPA no expone ninguna. | Python (stdlib) |
+| **[azure-backup-dashboard](https://github.com/mr7security/azure-backup-dashboard)** | Estado de Azure Backup cruzando inventario de VMs con elementos protegidos. Detecta las máquinas **sin copia**: el hueco que la revisión manual nunca ve, porque una VM no protegida no genera trabajos. | Python · Azure SDK |
+| **[environmental-dashboard](https://github.com/mr7security/environmental-dashboard)** | Temperatura y humedad de CPDs en varias sedes. Sensores HW-group STE2 y Poseidon2 por HTTP/XML, y Delta InsightPower por SNMP. Sin agentes. | Python (stdlib) |
+
 ## Simuladores de concienciación · Awareness simulators
 
 Formación en seguridad para empleados, en un único archivo HTML sin backend. Se abren y se juegan.
@@ -52,7 +64,7 @@ Herramientas read-only y con aviso legal, informe HTML bilingüe (EN/ES) por sev
 
 ## Stack
 
-`Python` · `Active Directory` · `Microsoft Entra ID` · `MITRE ATT&CK` · `DNS/TLS` · `Email auth (SPF/DKIM/DMARC)` · `ISO 27001` · `ENS` · `NIS2` · `DORA` · `HTML/JS`
+`Python` · `Active Directory` · `Microsoft Entra ID` · `Azure` · `SQL Server` · `SNMP` · `systemd` · `MITRE ATT&CK` · `DNS/TLS` · `Email auth (SPF/DKIM/DMARC)` · `ISO 27001` · `ENS` · `NIS2` · `DORA` · `HTML/JS`
 
 ## Contacto
 
